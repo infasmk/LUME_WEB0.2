@@ -216,7 +216,7 @@ export default function App() {
                 Download App
               </a>
               <a 
-                href="https://instagram.com"
+                href="https://instagram.com/infaaze?"
                 target="_blank"
                 rel="noopener noreferrer"
                 className="px-8 py-4 glass text-white font-bold rounded-2xl hover:bg-white/10 transition-colors flex items-center justify-center gap-2"
