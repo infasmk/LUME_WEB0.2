@@ -290,14 +290,14 @@ export default function App() {
 
           <div className="flex flex-col items-center gap-6">
             <a 
-              href="#"
+              href="https://github.com/infasmk/Lume_Music/releases/download/v2.0.7/Lume-v2.0.7.apk"
               className="px-12 py-6 bg-red-600 text-white text-xl font-bold rounded-2xl hover:scale-105 transition-transform flex items-center gap-3 shadow-[0_0_40px_rgba(220,38,38,0.3)]"
             >
               <Download size={24} />
               Download APK v2.4.0
             </a>
             <div className="space-y-2">
-              <p className="text-sm text-white/40">Version 2.4.0 • 42MB • Android 8.0+</p>
+              <p className="text-sm text-white/40">Version 2.0.7 • 42MB • Android 8.0+</p>
               <p className="text-xs text-red-500/60 font-medium uppercase tracking-widest">
                 ⚠️ Delete older versions before installing
               </p>
@@ -306,7 +306,7 @@ export default function App() {
 
           <div className="pt-10 border-t border-white/5 grid grid-cols-3 gap-8">
             <div>
-              <p className="text-3xl font-bold font-display text-red-500">500K+</p>
+              <p className="text-3xl font-bold font-display text-red-500">5k+</p>
               <p className="text-xs text-white/40 uppercase tracking-widest">Downloads</p>
             </div>
             <div>
@@ -324,7 +324,7 @@ export default function App() {
       {/* What's New Section */}
       <section className="py-32 px-6 bg-zinc-950/50">
         <div className="max-w-3xl mx-auto text-center space-y-12">
-          <h2 className="text-4xl md:text-5xl font-display font-bold tracking-tight">What's New in v2.4</h2>
+          <h2 className="text-4xl md:text-5xl font-display font-bold tracking-tight">What's New in v2.7</h2>
           <div className="grid gap-6">
             {[
               { title: "Redesigned Player", desc: "A more intuitive and beautiful playback interface.", color: "text-red-500" },
