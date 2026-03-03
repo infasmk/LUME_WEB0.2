@@ -290,7 +290,7 @@ export default function App() {
 
           <div className="flex flex-col items-center gap-6">
             <a 
-              href="https://github.com/infasmk/Lume_Music/releases/download/v2.0.7/Lume-v2.0.7.apk"
+              href="https://github.com/infasmk/Lume_Music/releases/download/2.0.7%2B9/app-release.apk"
               className="px-12 py-6 bg-blue-500 text-white text-xl font-bold rounded-2xl hover:scale-105 transition-transform flex items-center gap-3 shadow-[0_0_40px_rgba(59,130,246,0.3)]"
             >
               <Download size={24} />
