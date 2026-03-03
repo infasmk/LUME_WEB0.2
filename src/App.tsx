@@ -72,17 +72,17 @@ export default function App() {
       <nav className="fixed top-0 left-0 right-0 z-40 bg-black/50 backdrop-blur-md border-b border-white/5">
         <div className="max-w-7xl mx-auto px-6 h-20 flex items-center justify-between">
           <div className="flex items-center gap-2">
-            <div className="w-8 h-8 bg-yellow-500 rounded-lg flex items-center justify-center shadow-[0_0_20px_rgba(234,179,8,0.4)]">
+            <div className="w-8 h-8 bg-blue-500 rounded-lg flex items-center justify-center shadow-[0_0_20px_rgba(59,130,246,0.4)]">
               <div className="w-4 h-4 bg-black rounded-sm rotate-45" />
             </div>
             <span className="text-2xl font-display font-bold tracking-tighter">LUME</span>
           </div>
           <div className="hidden md:flex items-center gap-8 text-sm font-medium text-white/60">
-            <a href="#features" className="hover:text-yellow-400 transition-colors">Features</a>
-            <a href="#download" className="hover:text-yellow-400 transition-colors">Download</a>
-            <a href="#faq" className="hover:text-yellow-400 transition-colors">FAQ</a>
+            <a href="#features" className="hover:text-blue-400 transition-colors">Features</a>
+            <a href="#download" className="hover:text-blue-400 transition-colors">Download</a>
+            <a href="#faq" className="hover:text-blue-400 transition-colors">FAQ</a>
           </div>
-          <button className="px-6 py-2.5 bg-yellow-500 text-white text-sm font-bold rounded-full hover:bg-yellow-400 transition-colors shadow-lg shadow-yellow-500/20">
+          <button className="px-6 py-2.5 bg-blue-500 text-white text-sm font-bold rounded-full hover:bg-blue-400 transition-colors shadow-lg shadow-blue-500/20">
             Get App
           </button>
         </div>
@@ -94,11 +94,11 @@ export default function App() {
         <div className="absolute inset-0 -z-10">
           <motion.div 
             style={{ y: y1 }}
-            className="absolute top-1/4 left-1/4 w-96 h-96 bg-yellow-500/10 rounded-full blur-[120px] animate-pulse-slow" 
+            className="absolute top-1/4 left-1/4 w-96 h-96 bg-blue-500/10 rounded-full blur-[120px] animate-pulse-slow" 
           />
           <motion.div 
             style={{ y: y2 }}
-            className="absolute bottom-1/4 right-1/4 w-96 h-96 bg-orange-600/10 rounded-full blur-[120px] animate-pulse-slow" 
+            className="absolute bottom-1/4 right-1/4 w-96 h-96 bg-cyan-500/10 rounded-full blur-[120px] animate-pulse-slow" 
             transition={{ delay: 2 }}
           />
           
@@ -113,7 +113,7 @@ export default function App() {
                   key={i}
                   animate={{ 
                     height: [40, Math.random() * 200 + 40, 40],
-                    backgroundColor: i % 2 === 0 ? "rgba(234,179,8,0.2)" : "rgba(249,115,22,0.2)"
+                    backgroundColor: i % 2 === 0 ? "rgba(59,130,246,0.2)" : "rgba(6,182,212,0.2)"
                   }}
                   transition={{ 
                     duration: Math.random() * 1.5 + 1, 
@@ -137,9 +137,9 @@ export default function App() {
                 scale: [1, 1.05, 1]
               }} 
               transition={{ duration: 5, repeat: Infinity, ease: "easeInOut" }}
-              className="absolute top-[-40px] right-[10%] glass p-3 md:p-4 rounded-2xl shadow-xl border-yellow-500/20"
+              className="absolute top-[-40px] right-[10%] glass p-3 md:p-4 rounded-2xl shadow-xl border-blue-500/20"
             >
-              <Music className="text-yellow-500" size={24} />
+              <Music className="text-blue-500" size={24} />
             </motion.div>
 
             <motion.div 
@@ -149,9 +149,9 @@ export default function App() {
                 scale: [1, 0.95, 1]
               }} 
               transition={{ duration: 6, repeat: Infinity, ease: "easeInOut", delay: 0.5 }}
-              className="absolute bottom-[20%] left-[-20px] md:left-[5%] glass p-3 md:p-4 rounded-2xl shadow-xl border-orange-500/20"
+              className="absolute bottom-[20%] left-[-20px] md:left-[5%] glass p-3 md:p-4 rounded-2xl shadow-xl border-cyan-500/20"
             >
-              <Headphones className="text-orange-500" size={24} />
+              <Headphones className="text-cyan-400" size={24} />
             </motion.div>
 
             <motion.div 
@@ -161,9 +161,9 @@ export default function App() {
                 rotate: [0, 12, 0]
               }} 
               transition={{ duration: 7, repeat: Infinity, ease: "easeInOut", delay: 1 }}
-              className="absolute top-[40%] right-[-10px] md:right-[15%] glass p-2 md:p-3 rounded-xl shadow-lg border-yellow-500/20"
+              className="absolute top-[40%] right-[-10px] md:right-[15%] glass p-2 md:p-3 rounded-xl shadow-lg border-blue-500/20"
             >
-              <Activity className="text-yellow-500/80" size={18} />
+              <Activity className="text-blue-500/80" size={18} />
             </motion.div>
 
             <motion.div 
@@ -173,9 +173,9 @@ export default function App() {
                 rotate: [0, -10, 0]
               }} 
               transition={{ duration: 4.5, repeat: Infinity, ease: "easeInOut", delay: 1.5 }}
-              className="absolute top-[10%] left-[20%] glass p-2 md:p-3 rounded-xl shadow-lg border-orange-500/20"
+              className="absolute top-[10%] left-[20%] glass p-2 md:p-3 rounded-xl shadow-lg border-cyan-500/20"
             >
-              <Volume2 className="text-orange-500/80" size={18} />
+              <Volume2 className="text-cyan-400/80" size={18} />
             </motion.div>
 
             <motion.div 
@@ -184,9 +184,9 @@ export default function App() {
                 scale: [1, 1.1, 1]
               }} 
               transition={{ duration: 5.5, repeat: Infinity, ease: "easeInOut", delay: 2 }}
-              className="absolute bottom-[-20px] right-[30%] glass p-2 md:p-3 rounded-xl shadow-lg border-yellow-500/20"
+              className="absolute bottom-[-20px] right-[30%] glass p-2 md:p-3 rounded-xl shadow-lg border-blue-500/20"
             >
-              <Music2 className="text-yellow-500/80" size={18} />
+              <Music2 className="text-blue-500/80" size={18} />
             </motion.div>
           </div>
 
@@ -196,13 +196,13 @@ export default function App() {
             transition={{ duration: 0.8 }}
             className="space-y-8 relative z-10 text-center lg:text-left max-w-3xl mx-auto lg:mx-0"
           >
-            <div className="inline-flex items-center gap-2 px-4 py-2 rounded-full glass text-xs font-bold tracking-widest uppercase text-yellow-400 border-yellow-500/20">
-              <span className="w-2 h-2 bg-yellow-500 rounded-full animate-pulse" />
+            <div className="inline-flex items-center gap-2 px-4 py-2 rounded-full glass text-xs font-bold tracking-widest uppercase text-blue-400 border-blue-500/20">
+              <span className="w-2 h-2 bg-blue-500 rounded-full animate-pulse" />
               Now Available for Android
             </div>
             <h1 className="text-6xl md:text-8xl font-display font-bold tracking-tighter leading-[0.9]">
               Feel the music <br />
-              <span className="text-yellow-500/40 italic">in a new light</span>
+              <span className="text-blue-500/40 italic">in a new light</span>
             </h1>
             <p className="text-xl text-white/60 max-w-lg leading-relaxed mx-auto lg:mx-0">
               Experience sound like never before. Lume brings you high-fidelity streaming in a beautifully crafted premium interface.
@@ -210,7 +210,7 @@ export default function App() {
             <div className="flex flex-col sm:flex-row gap-4 justify-center lg:justify-start">
               <a 
                 href="#download"
-                className="px-8 py-4 bg-yellow-500 text-white font-bold rounded-2xl hover:scale-105 transition-transform flex items-center justify-center gap-2 shadow-xl shadow-yellow-500/20"
+                className="px-8 py-4 bg-blue-500 text-white font-bold rounded-2xl hover:scale-105 transition-transform flex items-center justify-center gap-2 shadow-xl shadow-blue-500/20"
               >
                 <Download size={20} />
                 Download App
@@ -242,37 +242,37 @@ export default function App() {
               icon={Headphones}
               title="High-Quality Streaming"
               description="Lossless audio support from YT Music, JioSaavn, and YouTube directly inside the app."
-              colorClass="bg-yellow-500/20 text-yellow-500"
+              colorClass="bg-blue-500/20 text-blue-500"
             />
             <FeatureCard 
               icon={Zap}
               title="Full Ads-Free"
               description="Enjoy an uninterrupted listening experience with zero ads, forever."
-              colorClass="bg-orange-600/20 text-orange-500"
+              colorClass="bg-cyan-500/20 text-cyan-400"
             />
             <FeatureCard 
               icon={Music}
               title="Import Playlists"
               description="Seamlessly import your entire library and playlists from Spotify with one click."
-              colorClass="bg-yellow-500/20 text-yellow-500"
+              colorClass="bg-blue-500/20 text-blue-500"
             />
             <FeatureCard 
               icon={Download}
               title="Offline Downloads"
               description="Take your music anywhere. Download entire playlists with a single tap."
-              colorClass="bg-orange-600/20 text-orange-500"
+              colorClass="bg-cyan-500/20 text-cyan-400"
             />
             <FeatureCard 
               icon={Moon}
               title="Premium Dark Mode"
               description="A stunning high-contrast UI designed for late-night listening sessions."
-              colorClass="bg-yellow-500/20 text-yellow-500"
+              colorClass="bg-blue-500/20 text-blue-500"
             />
             <FeatureCard 
               icon={ShieldCheck}
               title="Secure & Private"
               description="Your data is yours. We prioritize user privacy and secure authentication."
-              colorClass="bg-orange-600/20 text-orange-500"
+              colorClass="bg-cyan-500/20 text-cyan-400"
             />
           </div>
         </div>
@@ -281,7 +281,7 @@ export default function App() {
       {/* Download Section */}
       <section id="download" className="py-32 px-6">
         <div className="max-w-5xl mx-auto glass rounded-[3rem] p-12 md:p-20 text-center space-y-10 relative overflow-hidden">
-          <div className="absolute inset-0 -z-10 bg-gradient-to-b from-yellow-500/10 to-transparent" />
+          <div className="absolute inset-0 -z-10 bg-gradient-to-b from-blue-500/10 to-transparent" />
           
           <div className="space-y-4">
             <h2 className="text-5xl md:text-6xl font-display font-bold tracking-tight">Ready to Listen?</h2>
@@ -291,14 +291,14 @@ export default function App() {
           <div className="flex flex-col items-center gap-6">
             <a 
               href="https://github.com/infasmk/Lume_Music/releases/download/v2.0.7/Lume-v2.0.7.apk"
-              className="px-12 py-6 bg-yellow-500 text-white text-xl font-bold rounded-2xl hover:scale-105 transition-transform flex items-center gap-3 shadow-[0_0_40px_rgba(234,179,8,0.3)]"
+              className="px-12 py-6 bg-blue-500 text-white text-xl font-bold rounded-2xl hover:scale-105 transition-transform flex items-center gap-3 shadow-[0_0_40px_rgba(59,130,246,0.3)]"
             >
               <Download size={24} />
               Download APK v2.4.0
             </a>
             <div className="space-y-2">
               <p className="text-sm text-white/40">Version 2.0.7 • 42MB • Android 8.0+</p>
-              <p className="text-xs text-yellow-500/60 font-medium uppercase tracking-widest">
+              <p className="text-xs text-blue-500/60 font-medium uppercase tracking-widest">
                 ⚠️ Delete older versions before installing
               </p>
             </div>
@@ -306,15 +306,15 @@ export default function App() {
 
           <div className="pt-10 border-t border-white/5 grid grid-cols-3 gap-8">
             <div>
-              <p className="text-3xl font-bold font-display text-yellow-500">5k+</p>
+              <p className="text-3xl font-bold font-display text-blue-500">5k+</p>
               <p className="text-xs text-white/40 uppercase tracking-widest">Downloads</p>
             </div>
             <div>
-              <p className="text-3xl font-bold font-display text-orange-500">4.9/5</p>
+              <p className="text-3xl font-bold font-display text-cyan-400">4.9/5</p>
               <p className="text-xs text-white/40 uppercase tracking-widest">Rating</p>
             </div>
             <div>
-              <p className="text-3xl font-bold font-display text-yellow-500">24/7</p>
+              <p className="text-3xl font-bold font-display text-blue-500">24/7</p>
               <p className="text-xs text-white/40 uppercase tracking-widest">Support</p>
             </div>
           </div>
@@ -327,9 +327,9 @@ export default function App() {
           <h2 className="text-4xl md:text-5xl font-display font-bold tracking-tight">What's New in v2.7</h2>
           <div className="grid gap-6">
             {[
-              { title: "Redesigned Player", desc: "A more intuitive and beautiful playback interface.", color: "text-yellow-500" },
-              { title: "Smart Cache", desc: "Improved offline management and faster loading.", color: "text-orange-500" },
-              { title: "Lossless Audio", desc: "Support for FLAC and high-bitrate streaming.", color: "text-yellow-500" }
+              { title: "Redesigned Player", desc: "A more intuitive and beautiful playback interface.", color: "text-blue-500" },
+              { title: "Smart Cache", desc: "Improved offline management and faster loading.", color: "text-cyan-400" },
+              { title: "Lossless Audio", desc: "Support for FLAC and high-bitrate streaming.", color: "text-blue-500" }
             ].map((item, i) => (
               <div key={i} className="glass p-6 rounded-2xl flex flex-col items-center gap-2">
                 <CheckCircle2 className={item.color} size={24} />
@@ -374,7 +374,7 @@ export default function App() {
         <div className="max-w-7xl mx-auto grid md:grid-cols-2 lg:grid-cols-4 gap-12">
           <div className="space-y-6">
             <div className="flex items-center gap-2">
-              <div className="w-8 h-8 bg-yellow-500 rounded-lg flex items-center justify-center">
+              <div className="w-8 h-8 bg-blue-500 rounded-lg flex items-center justify-center">
                 <div className="w-4 h-4 bg-black rounded-sm rotate-45" />
               </div>
               <span className="text-2xl font-display font-bold tracking-tighter">LUME</span>
@@ -383,10 +383,10 @@ export default function App() {
               Redefining the music streaming experience with premium design and high-fidelity sound.
             </p>
             <div className="flex gap-4">
-              <a href="#" className="w-10 h-10 rounded-full glass flex items-center justify-center hover:bg-yellow-500/20 hover:text-yellow-500 transition-colors">
+              <a href="#" className="w-10 h-10 rounded-full glass flex items-center justify-center hover:bg-blue-500/20 hover:text-blue-500 transition-colors">
                 <Instagram size={18} />
               </a>
-              <a href="#" className="w-10 h-10 rounded-full glass flex items-center justify-center hover:bg-orange-600/20 hover:text-orange-500 transition-colors">
+              <a href="#" className="w-10 h-10 rounded-full glass flex items-center justify-center hover:bg-cyan-500/20 hover:text-cyan-400 transition-colors">
                 <Zap size={18} />
               </a>
             </div>

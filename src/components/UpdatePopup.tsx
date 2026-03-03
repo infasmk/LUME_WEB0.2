@@ -46,7 +46,7 @@ export default function UpdatePopup() {
               </div>
 
               <div className="flex flex-col w-full gap-3">
-                <button  onClick={dismiss} className="w-full py-4 bg-yellow-500 text-white font-semibold rounded-xl hover:bg-yellow-400 transition-all flex items-center justify-center gap-2 group shadow-lg shadow-yellow-500/20">
+                <button  onClick={dismiss} className="w-full py-4 bg-blue-500 text-white font-semibold rounded-xl hover:bg-blue-400 transition-all flex items-center justify-center gap-2 group shadow-lg shadow-blue-500/20">
                   <Download size={18} className="group-hover:translate-y-0.5 transition-transform" />
                   Download Latest Version
                 </button>
