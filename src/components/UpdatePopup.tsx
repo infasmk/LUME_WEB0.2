@@ -41,7 +41,7 @@ export default function UpdatePopup() {
               <div className="space-y-2">
                 <h2 className="text-2xl font-display font-bold tracking-tight">Update Required</h2>
                 <p className="text-white/60 leading-relaxed">
-                  If you previously downloaded the older Lume app (flower icon), please uninstall it and install the latest version. The new version includes updated features, a new UI design, and a smoother listening experience.
+                  If you previously downloaded the older Lume app (flower icon) or New Lume app without Login option, please uninstall it and install the latest version. The new version includes updated features, a new UI design, and a smoother listening experience.
                 </p>
               </div>
 
