@@ -284,7 +284,7 @@ export default function App() {
           <div className="absolute inset-0 -z-10 bg-gradient-to-b from-blue-500/10 to-transparent" />
           
           <div className="space-y-4">
-            <h2 className="text-5xl md:text-6xl font-display font-bold tracking-tight">Ready to Listen?</h2>
+            <h2 className="text-5xl md:text-6xl font-display font-bold tracking-tight">Ready to Listen? </h2>
             <p className="text-white/60 text-lg max-w-xl mx-auto">Join thousands of listeners who have already switched to Lume.</p>
           </div>
 
