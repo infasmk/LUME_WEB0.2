@@ -299,7 +299,7 @@ export default function App() {
             <div className="space-y-2">
               <p className="text-sm text-white/40">Version 2.98.13+3 • 42MB • Android 8.0+</p>
               <p className="text-xs text-blue-500/60 font-medium uppercase tracking-widest">
-                ⚠️ Delete older versions before installing
+                ⚠️ Delete older versions before installing (only if you are using the flower logo app)
               </p>
             </div>
           </div>
