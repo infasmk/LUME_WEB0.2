@@ -294,10 +294,10 @@ export default function App() {
               className="px-12 py-6 bg-blue-500 text-white text-xl font-bold rounded-2xl hover:scale-105 transition-transform flex items-center gap-3 shadow-[0_0_40px_rgba(59,130,246,0.3)]"
             >
               <Download size={24} />
-              Download APK v2.0.8
+              Download APK v2.98.13+3
             </a>
             <div className="space-y-2">
-              <p className="text-sm text-white/40">Version 2.13.3 • 42MB • Android 8.0+</p>
+              <p className="text-sm text-white/40">Version 2.98.13+3 • 42MB • Android 8.0+</p>
               <p className="text-xs text-blue-500/60 font-medium uppercase tracking-widest">
                 ⚠️ Delete older versions before installing
               </p>
