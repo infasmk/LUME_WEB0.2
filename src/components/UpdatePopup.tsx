@@ -41,7 +41,7 @@ export default function UpdatePopup() {
               <div className="space-y-2">
                 <h2 className="text-2xl font-display font-bold tracking-tight">NEW UPDATE IS LIVE!</h2>
                 <p className="text-white/60 leading-relaxed">
-                 New Lume With ✨Seamless Queue Preloading  </br>  ✨new hero spotlight install the latest version. The new version includes updated features, a new UI design, and a smoother listening experience.
+                 New Lume With ✨Seamless Queue Preloading  ✨new hero spotlight install the latest version. The new version includes updated features, a new UI design, and a smoother listening experience.
                 </p>
               </div>
 
