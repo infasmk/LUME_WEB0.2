@@ -290,14 +290,14 @@ export default function App() {
 
           <div className="flex flex-col items-center gap-6">
             <a 
-              href="https://github.com/infasmk/Lume_Music/releases/download/2.98.13%2B3/Lume.v2.13.3.apk"
+              href="https://github.com/infasmk/Lume_Music/releases/download/3.01.25%2B9/Lume.V3.01.25+9.apk"
               className="px-12 py-6 bg-blue-500 text-white text-xl font-bold rounded-2xl hover:scale-105 transition-transform flex items-center gap-3 shadow-[0_0_40px_rgba(59,130,246,0.3)]"
             >
               <Download size={24} />
-              Download APK v2.98.13+3
+              Download APK v3.01.25+9
             </a>
             <div className="space-y-2">
-              <p className="text-sm text-white/40">Version 2.98.13+3 • 42MB • Android 8.0+</p>
+              <p className="text-sm text-white/40">Version3.01.25+9 • 49MB • Android 8.0+</p>
               <p className="text-xs text-blue-500/60 font-medium uppercase tracking-widest">
                 ⚠️ Delete older versions before installing (only if you are using the flower logo app)
               </p>
